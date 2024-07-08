@@ -1,0 +1,23 @@
+{
+  "name": "horizontal-slider-cards",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "concurrently \"vite preview\" \"vite build --watch\""
+  },
+  "dependencies": {
+    "@material/web": "^1.5.1",
+    "iconify-icon": "^2.1.0",
+    "lit": "^3.1.2",
+    "material-icons": "^1.13.12"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0"
+  }
+}

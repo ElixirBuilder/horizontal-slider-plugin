@@ -1,0 +1,60 @@
+{
+  "version": "0.0.1",
+  "name": "horizontal-slider-cards",
+  "title": "Horizontal Slider Cards",
+  "description": "Horizontal Slider Cards",
+  "pm": "pnpm",
+  "access": "public",
+  "components": [
+    {
+      "name": "horizontal-slider-cards.horizontal-slider",
+      "title": "Horizontal Cards Slider",
+      "description": "This component can be used to display a horizontal slider of cards.",
+      "children": true,
+      "settings": [
+        {
+          "attr": "showArrows",
+          "title": "Show Arrows",
+          "description": "Show arrows to navigate the slider.",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "attr": "autoScroll",
+          "title": "Auto Scroll",
+          "description": "Enable auto scroll.",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "attr": "autoScrollSeconds",
+          "title": "Auto Scroll Seconds",
+          "description": "Time in seconds to wait before auto scrolling.",
+          "type": "number",
+          "default": 5
+        },
+        {
+          "attr": "pauseOnHover",
+          "title": "Pause On Hover",
+          "description": "Pause auto scroll on hover.",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "attr": "itemsToScroll",
+          "title": "Items To Scroll",
+          "description": "Number of items to scroll.",
+          "type": "number",
+          "default": 1
+        },
+        {
+          "attr": "startAgainAfterEnd",
+          "title": "Start Again After End",
+          "description": "Start again after reaching the end.",
+          "type": "checkbox",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
