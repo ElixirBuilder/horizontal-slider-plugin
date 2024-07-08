@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "horizontal-slider-cards",
   "title": "Horizontal Slider Cards",
   "description": "Horizontal Slider Cards",
@@ -51,6 +51,13 @@
           "attr": "startAgainAfterEnd",
           "title": "Start Again After End",
           "description": "Start again after reaching the end.",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "attr": "showDots",
+          "title": "Show Dots",
+          "description": "Show dots to navigate the slider.",
           "type": "checkbox",
           "default": false
         }
